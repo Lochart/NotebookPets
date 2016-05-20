@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EvJ-gQ-OUD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Записная книжка-->
+        <scene sceneID="bHJ-0Z-c3y">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="EKu-mK-XMh" customClass="NotebookPet" customModule="NotebookPet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="HOD-uq-a8x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PetCell" rowHeight="80" id="Ugt-Nb-pbe" customClass="NotebookPetCell" customModule="NotebookPet" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="86" width="600" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ugt-Nb-pbe" id="dyi-Hr-oYM">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note Name Pet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Jz-XBv">
+                                            <rect key="frame" x="20" y="21" width="560" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="DLr-W6-Khk"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note Specie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzw-ye-OfH">
+                                            <rect key="frame" x="20" y="50" width="177" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="177" id="k9l-aq-Cli"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="lzw-ye-OfH" firstAttribute="top" secondItem="XLV-Jz-XBv" secondAttribute="bottom" constant="8" id="0eC-sE-VJL"/>
+                                        <constraint firstItem="XLV-Jz-XBv" firstAttribute="leading" secondItem="lzw-ye-OfH" secondAttribute="leading" id="4ZS-iU-tkn"/>
+                                        <constraint firstAttribute="bottom" secondItem="lzw-ye-OfH" secondAttribute="bottom" constant="8" id="7ol-83-qQh"/>
+                                        <constraint firstAttribute="trailing" secondItem="XLV-Jz-XBv" secondAttribute="trailing" constant="20" symbolic="YES" id="GuA-CZ-bej"/>
+                                        <constraint firstItem="XLV-Jz-XBv" firstAttribute="leading" secondItem="dyi-Hr-oYM" secondAttribute="leading" constant="20" symbolic="YES" id="oYZ-Dw-BHy"/>
+                                        <constraint firstItem="XLV-Jz-XBv" firstAttribute="top" secondItem="dyi-Hr-oYM" secondAttribute="top" constant="21" id="uGX-6A-iwo"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.96351610711366553" blue="0.87123847303377944" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="noteNamePet" destination="XLV-Jz-XBv" id="X8J-mc-JPC"/>
+                                    <outlet property="noteSpecie" destination="lzw-ye-OfH" id="5Oy-fs-VeG"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EKu-mK-XMh" id="Att-KZ-zqe"/>
+                            <outlet property="delegate" destination="EKu-mK-XMh" id="2Bh-lO-AyY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Записная книжка" id="N3o-il-vyn">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="akI-ts-BoH">
+                            <connections>
+                                <segue destination="gO6-26-q9W" kind="popoverPresentation" identifier="addPet" popoverAnchorBarButtonItem="akI-ts-BoH" id="lNh-8o-q6e">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdC-Ov-QEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1447" y="287"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1hz-5Q-Gj2">
+            <objects>
+                <navigationController id="EvJ-gQ-OUD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hiw-0k-z7k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EKu-mK-XMh" kind="relationship" relationship="rootViewController" id="qEQ-xz-CMi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6LL-Sw-JiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="287"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="M1b-MC-rkv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gO6-26-q9W" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GHV-vt-96F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L3i-JB-7eb" kind="relationship" relationship="rootViewController" id="6y0-lY-eNS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndA-IH-RQ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136" y="287"/>
+        </scene>
+        <!--Create Note With Images-->
+        <scene sceneID="trN-j4-WHw">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="L3i-JB-7eb" userLabel="Create Note With Images" customClass="AddPet" customModule="NotebookPet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yll-u4-49p"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zwn-xl-PUm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ia1-xW-9J7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите имя вашего петомца" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9tp-18-cTI">
+                                <rect key="frame" x="20" y="140" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="L3i-JB-7eb" id="5rK-f1-QKx"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Собака" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qom-Vm-6Kh">
+                                <rect key="frame" x="139" y="100" width="441" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вид питомца:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUf-xw-8fh">
+                                <rect key="frame" x="20" y="100" width="111" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="j1u-vH-7cc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбор вида питомца" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-qg-nau">
+                                <rect key="frame" x="20" y="193" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BMC-bN-74P">
+                                <rect key="frame" x="20" y="222" width="560" height="358"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="L3i-JB-7eb" id="qu6-9K-hfC"/>
+                                    <outlet property="delegate" destination="L3i-JB-7eb" id="zr6-AZ-8cn"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77817170520000001" green="0.92068155770000004" blue="0.37974067449999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9tp-18-cTI" firstAttribute="trailing" secondItem="8dm-qg-nau" secondAttribute="trailing" id="270-wv-s7e"/>
+                            <constraint firstItem="9tp-18-cTI" firstAttribute="leading" secondItem="8dm-qg-nau" secondAttribute="leading" id="8OI-Sm-3eP"/>
+                            <constraint firstItem="8dm-qg-nau" firstAttribute="trailing" secondItem="BMC-bN-74P" secondAttribute="trailing" id="CCY-Jh-1Wv"/>
+                            <constraint firstItem="qom-Vm-6Kh" firstAttribute="trailing" secondItem="Ia1-xW-9J7" secondAttribute="trailingMargin" id="F15-4W-JIt"/>
+                            <constraint firstItem="YUf-xw-8fh" firstAttribute="baseline" secondItem="qom-Vm-6Kh" secondAttribute="baseline" id="FTm-xb-PS6"/>
+                            <constraint firstItem="YUf-xw-8fh" firstAttribute="leading" secondItem="Ia1-xW-9J7" secondAttribute="leadingMargin" id="Lhh-Uz-MRc"/>
+                            <constraint firstItem="qom-Vm-6Kh" firstAttribute="leading" secondItem="YUf-xw-8fh" secondAttribute="trailing" constant="8" symbolic="YES" id="NSn-S3-t3d"/>
+                            <constraint firstItem="YUf-xw-8fh" firstAttribute="leading" secondItem="9tp-18-cTI" secondAttribute="leading" id="PJe-eb-D5M"/>
+                            <constraint firstItem="9tp-18-cTI" firstAttribute="top" secondItem="YUf-xw-8fh" secondAttribute="bottom" constant="19" id="Qe6-GH-hhe"/>
+                            <constraint firstItem="qom-Vm-6Kh" firstAttribute="trailing" secondItem="9tp-18-cTI" secondAttribute="trailing" id="WSg-YB-BuV"/>
+                            <constraint firstAttribute="bottom" secondItem="BMC-bN-74P" secondAttribute="bottom" constant="20" symbolic="YES" id="Wpc-Qn-UDQ"/>
+                            <constraint firstItem="8dm-qg-nau" firstAttribute="top" secondItem="9tp-18-cTI" secondAttribute="bottom" constant="23" id="Y3K-tL-iHR"/>
+                            <constraint firstItem="YUf-xw-8fh" firstAttribute="top" secondItem="yll-u4-49p" secondAttribute="bottom" constant="36" id="nF4-VV-Pbz"/>
+                            <constraint firstItem="8dm-qg-nau" firstAttribute="leading" secondItem="BMC-bN-74P" secondAttribute="leading" id="nLM-aD-q4w"/>
+                            <constraint firstItem="BMC-bN-74P" firstAttribute="top" secondItem="8dm-qg-nau" secondAttribute="bottom" constant="8" symbolic="YES" id="vzO-k9-fzE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Записать нового питомца" id="xwx-wH-QEX">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fHf-2v-A69">
+                            <connections>
+                                <segue destination="vyY-Xe-JrE" kind="unwind" identifier="unwindToNotesList" unwindAction="unwindToNotesList:" id="YuE-YH-tbD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="2wz-IO-X68">
+                            <connections>
+                                <action selector="saveNote" destination="L3i-JB-7eb" id="7OQ-1S-YO3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="labelSpecie" destination="qom-Vm-6Kh" id="O8N-Ju-o98"/>
+                        <outlet property="nameField" destination="9tp-18-cTI" id="78p-t2-ImN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XcT-eO-dtr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vyY-Xe-JrE" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2829" y="287"/>
+        </scene>
+    </scenes>
+</document>

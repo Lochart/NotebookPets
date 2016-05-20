@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NotebookPetCell"
+provides-nominal:
+- "C11NotebookPet15NotebookPetCell"
+provides-member:
+- ["C11NotebookPet15NotebookPetCell", ""]
+provides-dynamic-lookup:
+- "note"
+- "noteSpecie"
+- "updateNoteInfo"
+- "noteNamePet"
+depends-top-level:
+- "NotebookPetCell"
+- "UILabel"
+- "UITableViewCell"
+- !private "String"
+- "Note"
+depends-member:
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "body"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "note"]
+- ["Ps9AnyObject", "noteNamePet"]
+- ["Ps9AnyObject", "noteSpecie"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "updateNoteInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "body"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "note"]
+- ["Ps11CVarArgType", "noteNamePet"]
+- ["Ps11CVarArgType", "noteSpecie"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "updateNoteInfo"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "body"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "note"]
+- ["Ps28CustomDebugStringConvertible", "noteNamePet"]
+- ["Ps28CustomDebugStringConvertible", "noteSpecie"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "updateNoteInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "note"]
+- ["Ps23CustomStringConvertible", "noteNamePet"]
+- ["Ps23CustomStringConvertible", "noteSpecie"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "updateNoteInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "body"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "note"]
+- ["Ps9Equatable", "noteNamePet"]
+- ["Ps9Equatable", "noteSpecie"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "updateNoteInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "body"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "note"]
+- ["Ps8Hashable", "noteNamePet"]
+- ["Ps8Hashable", "noteSpecie"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "updateNoteInfo"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "String"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "note"]
+- ["PSo8NSCoding", "noteNamePet"]
+- ["PSo8NSCoding", "noteSpecie"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateNoteInfo"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo15NSManagedObject", "body"]
+- !private ["CSo15NSManagedObject", "title"]
+- ["CSo8NSObject", "Note"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "body"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "note"]
+- ["CSo8NSObject", "noteNamePet"]
+- ["CSo8NSObject", "noteSpecie"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "updateNoteInfo"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "body"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "note"]
+- ["PSo16NSObjectProtocol", "noteNamePet"]
+- ["PSo16NSObjectProtocol", "noteSpecie"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "updateNoteInfo"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo8NSString", "deinit"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["C11NotebookPet4Note", "body"]
+- !private ["C11NotebookPet4Note", "title"]
+- ["C11NotebookPet15NotebookPetCell", "Note"]
+- !private ["C11NotebookPet15NotebookPetCell", "String"]
+- ["C11NotebookPet15NotebookPetCell", "UILabel"]
+- ["C11NotebookPet15NotebookPetCell", "deinit"]
+- ["C11NotebookPet15NotebookPetCell", "init"]
+- ["C11NotebookPet15NotebookPetCell", "note"]
+- ["C11NotebookPet15NotebookPetCell", "noteNamePet"]
+- ["C11NotebookPet15NotebookPetCell", "noteSpecie"]
+- ["C11NotebookPet15NotebookPetCell", "updateNoteInfo"]
+- ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "String"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "note"]
+- ["PSo29UIAccessibilityIdentification", "noteNamePet"]
+- ["PSo29UIAccessibilityIdentification", "noteSpecie"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "updateNoteInfo"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "String"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "note"]
+- ["PSo12UIAppearance", "noteNamePet"]
+- ["PSo12UIAppearance", "noteSpecie"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "updateNoteInfo"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "note"]
+- ["PSo21UIAppearanceContainer", "noteNamePet"]
+- ["PSo21UIAppearanceContainer", "noteSpecie"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateNoteInfo"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "String"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "note"]
+- ["PSo17UICoordinateSpace", "noteNamePet"]
+- ["PSo17UICoordinateSpace", "noteSpecie"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "updateNoteInfo"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "String"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "note"]
+- ["PSo13UIDynamicItem", "noteNamePet"]
+- ["PSo13UIDynamicItem", "noteSpecie"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "updateNoteInfo"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "note"]
+- ["PSo18UIFocusEnvironment", "noteNamePet"]
+- ["PSo18UIFocusEnvironment", "noteSpecie"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateNoteInfo"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "String"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "note"]
+- ["PSo27UIGestureRecognizerDelegate", "noteNamePet"]
+- ["PSo27UIGestureRecognizerDelegate", "noteSpecie"]
+- ["PSo27UIGestureRecognizerDelegate", "updateNoteInfo"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Note"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "note"]
+- ["CSo11UIResponder", "noteNamePet"]
+- ["CSo11UIResponder", "noteSpecie"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateNoteInfo"]
+- ["CSo15UITableViewCell", "Note"]
+- !private ["CSo15UITableViewCell", "String"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "note"]
+- ["CSo15UITableViewCell", "noteNamePet"]
+- ["CSo15UITableViewCell", "noteSpecie"]
+- ["CSo15UITableViewCell", "updateNoteInfo"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "note"]
+- ["PSo18UITraitEnvironment", "noteNamePet"]
+- ["PSo18UITraitEnvironment", "noteSpecie"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateNoteInfo"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Note"]
+- !private ["CSo6UIView", "String"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "note"]
+- ["CSo6UIView", "noteNamePet"]
+- ["CSo6UIView", "noteSpecie"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "updateNoteInfo"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "String"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "note"]
+- ["Ps12_Reflectable", "noteNamePet"]
+- ["Ps12_Reflectable", "noteSpecie"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps12_Reflectable", "updateNoteInfo"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- !private "C11NotebookPet4Note"
+- "C11NotebookPet15NotebookPetCell"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "7c905aad2e0ade79fc0feae9503cd28d"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "33943bee3c4181681e4df75792333455"
+build_time: [517034298, 690833000]
+inputs:
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/NotebookPet.swift": [517034164, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/DataMigrationManager.swift": [516965005, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/Note.swift": [517033727, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/AddPet.swift": [517033727, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/NotebookPetCell.swift": [517033727, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/AppDelegate.swift": [517033228, 0]
+  "/Users/nikolay/Documents/Android/CloudNotes-master-c/CloudNotes/CoreDataStack.swift": [516965005, 0]

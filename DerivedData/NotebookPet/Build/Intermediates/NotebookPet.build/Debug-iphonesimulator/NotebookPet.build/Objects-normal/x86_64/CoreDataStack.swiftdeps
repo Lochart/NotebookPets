@@ -1,0 +1,468 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataStack"
+provides-nominal:
+- "C11NotebookPet13CoreDataStack"
+provides-member:
+- ["C11NotebookPet13CoreDataStack", ""]
+provides-dynamic-lookup:
+- "persistentStoreDidImportUbiquitousContentChanges"
+depends-top-level:
+- !private "+"
+- "NSError"
+- "NSManagedObjectContext"
+- "CoreDataStack"
+- "AnyObject"
+- "NSPersistentStore"
+- !private "NSLog"
+- "Bool"
+- "NSURL"
+- "StringLiteralType"
+- "NSNotificationCenter"
+- !private "NSFileManager"
+- "NSNotification"
+- "NSManagedObjectModel"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "NSPersistentStoreCoordinator"
+- !private "NSPersistentStoreDidImportUbiquitousContentChangesNotification"
+- !private "NSBundle"
+- "String"
+- !private "NSString"
+- "CustomStringConvertible"
+- !private "fatalError"
+- !private "NSSQLiteStoreType"
+- !private "print"
+- !private "UnicodeScalarType"
+- "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CoreDataStack"]
+- !private ["Ps9AnyObject", "NSBundle"]
+- !private ["Ps9AnyObject", "NSFileManager"]
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "NSManagedObjectContext"]
+- !private ["Ps9AnyObject", "NSManagedObjectModel"]
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "NSPersistentStoreCoordinator"]
+- !private ["Ps9AnyObject", "NSPersistentStoreDidImportUbiquitousContentChangesNotification"]
+- !private ["Ps9AnyObject", "NSSQLiteStoreType"]
+- !private ["Ps9AnyObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URLForResource"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "addPersistentStoreWithType"]
+- !private ["Ps9AnyObject", "context"]
+- !private ["Ps9AnyObject", "coordinator"]
+- !private ["Ps9AnyObject", "createDirectoryAtPath"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "defaultManager"]
+- ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- !private ["Ps9AnyObject", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps9AnyObject", "model"]
+- !private ["Ps9AnyObject", "modelName"]
+- !private ["Ps9AnyObject", "modelURL"]
+- !private ["Ps9AnyObject", "options"]
+- !private ["Ps9AnyObject", "performBlock"]
+- !private ["Ps9AnyObject", "persistentStoreCoordinator"]
+- !private ["Ps9AnyObject", "persistentStoreDidImportUbiquitousContentChanges"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "store"]
+- !private ["Ps9AnyObject", "storeName"]
+- !private ["Ps9AnyObject", "storeURL"]
+- !private ["Ps9AnyObject", "stringByAppendingPathComponent"]
+- !private ["Ps9AnyObject", "ubiquitousChangesObserver"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "UserDomainMask"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo13CKRecordValue", "init"]
+- !private ["PSo13CKRecordValue", "stringByAppendingPathComponent"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["PSo15CNKeyDescriptor", "stringByAppendingPathComponent"]
+- !private ["Ps11CVarArgType", "URLForResource"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "addPersistentStoreWithType"]
+- !private ["Ps11CVarArgType", "createDirectoryAtPath"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "defaultManager"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "mainBundle"]
+- !private ["Ps11CVarArgType", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps11CVarArgType", "performBlock"]
+- !private ["Ps11CVarArgType", "persistentStoreCoordinator"]
+- !private ["Ps11CVarArgType", "removeObserver"]
+- !private ["Ps11CVarArgType", "stringByAppendingPathComponent"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- ["C11NotebookPet13CoreDataStack", "AnyObject"]
+- ["C11NotebookPet13CoreDataStack", "Bool"]
+- !private ["C11NotebookPet13CoreDataStack", "CoreDataStack"]
+- !private ["C11NotebookPet13CoreDataStack", "NSBundle"]
+- ["C11NotebookPet13CoreDataStack", "NSError"]
+- !private ["C11NotebookPet13CoreDataStack", "NSFileManager"]
+- !private ["C11NotebookPet13CoreDataStack", "NSLog"]
+- ["C11NotebookPet13CoreDataStack", "NSManagedObjectContext"]
+- ["C11NotebookPet13CoreDataStack", "NSManagedObjectModel"]
+- ["C11NotebookPet13CoreDataStack", "NSNotification"]
+- ["C11NotebookPet13CoreDataStack", "NSNotificationCenter"]
+- ["C11NotebookPet13CoreDataStack", "NSPersistentStore"]
+- ["C11NotebookPet13CoreDataStack", "NSPersistentStoreCoordinator"]
+- !private ["C11NotebookPet13CoreDataStack", "NSPersistentStoreDidImportUbiquitousContentChangesNotification"]
+- !private ["C11NotebookPet13CoreDataStack", "NSSQLiteStoreType"]
+- !private ["C11NotebookPet13CoreDataStack", "NSSearchPathForDirectoriesInDomains"]
+- !private ["C11NotebookPet13CoreDataStack", "NSString"]
+- ["C11NotebookPet13CoreDataStack", "NSURL"]
+- ["C11NotebookPet13CoreDataStack", "String"]
+- ["C11NotebookPet13CoreDataStack", "context"]
+- !private ["C11NotebookPet13CoreDataStack", "context.storage"]
+- ["C11NotebookPet13CoreDataStack", "coordinator"]
+- !private ["C11NotebookPet13CoreDataStack", "coordinator.storage"]
+- ["C11NotebookPet13CoreDataStack", "deinit"]
+- ["C11NotebookPet13CoreDataStack", "description"]
+- !private ["C11NotebookPet13CoreDataStack", "fatalError"]
+- ["C11NotebookPet13CoreDataStack", "init"]
+- ["C11NotebookPet13CoreDataStack", "model"]
+- !private ["C11NotebookPet13CoreDataStack", "model.storage"]
+- ["C11NotebookPet13CoreDataStack", "modelName"]
+- ["C11NotebookPet13CoreDataStack", "modelURL"]
+- ["C11NotebookPet13CoreDataStack", "options"]
+- ["C11NotebookPet13CoreDataStack", "persistentStoreDidImportUbiquitousContentChanges"]
+- !private ["C11NotebookPet13CoreDataStack", "print"]
+- ["C11NotebookPet13CoreDataStack", "store"]
+- ["C11NotebookPet13CoreDataStack", "storeName"]
+- ["C11NotebookPet13CoreDataStack", "storeURL"]
+- !private ["C11NotebookPet13CoreDataStack", "ubiquitousChangesObserver"]
+- ["C11NotebookPet13CoreDataStack", "updateContextWithUbiquitousContentUpdates"]
+- !private ["Ps28CustomDebugStringConvertible", "URLForResource"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "addPersistentStoreWithType"]
+- !private ["Ps28CustomDebugStringConvertible", "createDirectoryAtPath"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultManager"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "performBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "persistentStoreCoordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CoreDataStack"]
+- !private ["Ps23CustomStringConvertible", "NSBundle"]
+- !private ["Ps23CustomStringConvertible", "NSFileManager"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "NSManagedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "NSManagedObjectModel"]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentStoreCoordinator"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentStoreDidImportUbiquitousContentChangesNotification"]
+- !private ["Ps23CustomStringConvertible", "NSSQLiteStoreType"]
+- !private ["Ps23CustomStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "URLForResource"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "addPersistentStoreWithType"]
+- !private ["Ps23CustomStringConvertible", "context"]
+- !private ["Ps23CustomStringConvertible", "coordinator"]
+- !private ["Ps23CustomStringConvertible", "createDirectoryAtPath"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "defaultManager"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- !private ["Ps23CustomStringConvertible", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps23CustomStringConvertible", "model"]
+- !private ["Ps23CustomStringConvertible", "modelName"]
+- !private ["Ps23CustomStringConvertible", "modelURL"]
+- !private ["Ps23CustomStringConvertible", "options"]
+- !private ["Ps23CustomStringConvertible", "performBlock"]
+- !private ["Ps23CustomStringConvertible", "persistentStoreCoordinator"]
+- !private ["Ps23CustomStringConvertible", "persistentStoreDidImportUbiquitousContentChanges"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "store"]
+- !private ["Ps23CustomStringConvertible", "storeName"]
+- !private ["Ps23CustomStringConvertible", "storeURL"]
+- !private ["Ps23CustomStringConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "ubiquitousChangesObserver"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "ApplicationSupportDirectory"]
+- !private ["Ps9Equatable", "MainQueueConcurrencyType"]
+- !private ["Ps9Equatable", "URLForResource"]
+- !private ["Ps9Equatable", "UserDomainMask"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "addPersistentStoreWithType"]
+- !private ["Ps9Equatable", "createDirectoryAtPath"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "defaultManager"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mainBundle"]
+- !private ["Ps9Equatable", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps9Equatable", "performBlock"]
+- !private ["Ps9Equatable", "persistentStoreCoordinator"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["Ps9Equatable", "stringByAppendingPathComponent"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "ApplicationSupportDirectory"]
+- !private ["Ps8Hashable", "MainQueueConcurrencyType"]
+- !private ["Ps8Hashable", "URLForResource"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "addPersistentStoreWithType"]
+- !private ["Ps8Hashable", "createDirectoryAtPath"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "defaultManager"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mainBundle"]
+- !private ["Ps8Hashable", "mergeChangesFromContextDidSaveNotification"]
+- !private ["Ps8Hashable", "performBlock"]
+- !private ["Ps8Hashable", "persistentStoreCoordinator"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["Ps8Hashable", "stringByAppendingPathComponent"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["CSo8NSBundle", "URLForResource"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mergeChangesFromContextDidSaveNotification"]
+- !private ["PSo8NSCoding", "performBlock"]
+- !private ["PSo8NSCoding", "persistentStoreCoordinator"]
+- !private ["PSo8NSCoding", "stringByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByAppendingPathComponent"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["CSo13NSFileManager", "createDirectoryAtPath"]
+- !private ["CSo13NSFileManager", "defaultManager"]
+- !private ["PSo9NSLocking", "addPersistentStoreWithType"]
+- !private ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "mergeChangesFromContextDidSaveNotification"]
+- !private ["PSo9NSLocking", "performBlock"]
+- !private ["PSo9NSLocking", "persistentStoreCoordinator"]
+- !private ["CSo22NSManagedObjectContext", "init"]
+- !private ["CSo22NSManagedObjectContext", "mergeChangesFromContextDidSaveNotification"]
+- !private ["CSo22NSManagedObjectContext", "performBlock"]
+- !private ["CSo22NSManagedObjectContext", "persistentStoreCoordinator"]
+- !private ["OSC37NSManagedObjectContextConcurrencyType", "MainQueueConcurrencyType"]
+- !private ["CSo20NSManagedObjectModel", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "stringByAppendingPathComponent"]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "deinit"]
+- !private ["CSo20NSNotificationCenter", "removeObserver"]
+- !private ["CSo8NSObject", "URLForResource"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "addPersistentStoreWithType"]
+- !private ["CSo8NSObject", "createDirectoryAtPath"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "defaultManager"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "mergeChangesFromContextDidSaveNotification"]
+- !private ["CSo8NSObject", "performBlock"]
+- !private ["CSo8NSObject", "persistentStoreCoordinator"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "stringByAppendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "URLForResource"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "addPersistentStoreWithType"]
+- !private ["PSo16NSObjectProtocol", "createDirectoryAtPath"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "defaultManager"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "mergeChangesFromContextDidSaveNotification"]
+- !private ["PSo16NSObjectProtocol", "performBlock"]
+- !private ["PSo16NSObjectProtocol", "persistentStoreCoordinator"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "stringByAppendingPathComponent"]
+- !private ["CSo28NSPersistentStoreCoordinator", "addPersistentStoreWithType"]
+- !private ["CSo28NSPersistentStoreCoordinator", "init"]
+- !private ["OSC21NSSearchPathDirectory", "ApplicationSupportDirectory"]
+- !private ["VSC22NSSearchPathDomainMask", "UserDomainMask"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByAppendingPathComponent"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByAppendingPathComponent"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Ps13OptionSetType", "UserDomainMask"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "ApplicationSupportDirectory"]
+- !private ["Ps16RawRepresentable", "MainQueueConcurrencyType"]
+- !private ["Ps16RawRepresentable", "UserDomainMask"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "UserDomainMask"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "stringByAppendingPathComponent"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "PSo13CKRecordValue"
+- !private "PSo15CNKeyDescriptor"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "C11NotebookPet13CoreDataStack"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "CSo8NSBundle"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo13NSFileManager"
+- !private "PSo9NSLocking"
+- !private "CSo22NSManagedObjectContext"
+- !private "OSC37NSManagedObjectContextConcurrencyType"
+- !private "CSo20NSManagedObjectModel"
+- !private "PSo16NSMutableCopying"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo28NSPersistentStoreCoordinator"
+- !private "OSC21NSSearchPathDirectory"
+- !private "VSC22NSSearchPathDomainMask"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "Ps13OptionSetType"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "cdec84425491b9ac43c1d2b584d7678f"
